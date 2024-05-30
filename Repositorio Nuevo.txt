@@ -1,0 +1,9 @@
+Inicializar un nuevo repositorio en github: (git init) se utiliza para inicializar un nuevo repositorio git en la carpeta local.
+
+Cambiar el nombre de la rama principal a "main": Se utiliza (git branch -M main) para cambiar el nombre de la rama principal a "main".
+
+Agregar un enlace remoto al repositorio en GitHub: Utilizar (git remote add origin http...url del epositorio) y así agrega el enlace remoto al repositorio. 
+
+Añadir un archivo de texto dentro de la carpeta local enlazada y realizar el primer commit: (git add .) y luego realizar el primer commit con (git commit -m "first commit"), guardando los cambios en la historia del repositorio.
+
+Finalmente empujar los cambios al repositorio remoto: utilizar (git push -u origin main) estableciendo la rama local "main" para rastrear a la rama remota "main".
